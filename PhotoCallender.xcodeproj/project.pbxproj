@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD3EA141B381956002C134A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3EA131B381956002C134A /* AppDelegate.swift */; };
+		FAD3EA161B381956002C134A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3EA151B381956002C134A /* ViewController.swift */; };
+		FAD3EA191B381956002C134A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD3EA171B381956002C134A /* Main.storyboard */; };
+		FAD3EA1C1B381956002C134A /* PhotoCallender.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAD3EA1A1B381956002C134A /* PhotoCallender.xcdatamodeld */; };
+		FAD3EA1E1B381956002C134A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD3EA1D1B381956002C134A /* Assets.xcassets */; };
+		FAD3EA211B381956002C134A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD3EA1F1B381956002C134A /* LaunchScreen.storyboard */; };
+		FAD3EA2C1B381956002C134A /* PhotoCallenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3EA2B1B381956002C134A /* PhotoCallenderTests.swift */; };
+		FAD3EA371B381956002C134A /* PhotoCallenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD3EA361B381956002C134A /* PhotoCallenderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD3EA281B381956002C134A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD3EA081B381956002C134A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD3EA0F1B381956002C134A;
+			remoteInfo = PhotoCallender;
+		};
+		FAD3EA331B381956002C134A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD3EA081B381956002C134A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD3EA0F1B381956002C134A;
+			remoteInfo = PhotoCallender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD3EA101B381956002C134A /* PhotoCallender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCallender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3EA131B381956002C134A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD3EA151B381956002C134A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD3EA181B381956002C134A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD3EA1B1B381956002C134A /* PhotoCallender.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoCallender.xcdatamodel; sourceTree = "<group>"; };
+		FAD3EA1D1B381956002C134A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD3EA201B381956002C134A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD3EA221B381956002C134A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD3EA271B381956002C134A /* PhotoCallenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoCallenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3EA2B1B381956002C134A /* PhotoCallenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCallenderTests.swift; sourceTree = "<group>"; };
+		FAD3EA2D1B381956002C134A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD3EA321B381956002C134A /* PhotoCallenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoCallenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD3EA361B381956002C134A /* PhotoCallenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCallenderUITests.swift; sourceTree = "<group>"; };
+		FAD3EA381B381956002C134A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD3EA0D1B381956002C134A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3EA241B381956002C134A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3EA2F1B381956002C134A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD3EA071B381956002C134A = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA121B381956002C134A /* PhotoCallender */,
+				FAD3EA2A1B381956002C134A /* PhotoCallenderTests */,
+				FAD3EA351B381956002C134A /* PhotoCallenderUITests */,
+				FAD3EA111B381956002C134A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD3EA111B381956002C134A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA101B381956002C134A /* PhotoCallender.app */,
+				FAD3EA271B381956002C134A /* PhotoCallenderTests.xctest */,
+				FAD3EA321B381956002C134A /* PhotoCallenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD3EA121B381956002C134A /* PhotoCallender */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA451B3819AD002C134A /* res */,
+				FAD3EA441B38199F002C134A /* src */,
+				FAD3EA221B381956002C134A /* Info.plist */,
+				FAD3EA1A1B381956002C134A /* PhotoCallender.xcdatamodeld */,
+			);
+			path = PhotoCallender;
+			sourceTree = "<group>";
+		};
+		FAD3EA2A1B381956002C134A /* PhotoCallenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA2B1B381956002C134A /* PhotoCallenderTests.swift */,
+				FAD3EA2D1B381956002C134A /* Info.plist */,
+			);
+			path = PhotoCallenderTests;
+			sourceTree = "<group>";
+		};
+		FAD3EA351B381956002C134A /* PhotoCallenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA361B381956002C134A /* PhotoCallenderUITests.swift */,
+				FAD3EA381B381956002C134A /* Info.plist */,
+			);
+			path = PhotoCallenderUITests;
+			sourceTree = "<group>";
+		};
+		FAD3EA441B38199F002C134A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA131B381956002C134A /* AppDelegate.swift */,
+				FAD3EA491B381A03002C134A /* Data */,
+				FAD3EA4A1B381A0A002C134A /* UI */,
+				FAD3EA4D1B381A27002C134A /* Handler */,
+				FAD3EA4C1B381A1F002C134A /* Utils */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		FAD3EA451B3819AD002C134A /* res */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA1D1B381956002C134A /* Assets.xcassets */,
+				FAD3EA481B3819E0002C134A /* View */,
+				FAD3EA461B3819B7002C134A /* Controller */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		FAD3EA461B3819B7002C134A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA171B381956002C134A /* Main.storyboard */,
+				FAD3EA1F1B381956002C134A /* LaunchScreen.storyboard */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FAD3EA481B3819E0002C134A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FAD3EA491B381A03002C134A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA501B381A55002C134A /* Entity */,
+				FAD3EA4F1B381A4E002C134A /* API */,
+				FAD3EA4E1B381A3F002C134A /* Model */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		FAD3EA4A1B381A0A002C134A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FAD3EA521B381A67002C134A /* View */,
+				FAD3EA511B381A5F002C134A /* Controller */,
+				FAD3EA151B381956002C134A /* ViewController.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FAD3EA4C1B381A1F002C134A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		FAD3EA4D1B381A27002C134A /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		FAD3EA4E1B381A3F002C134A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAD3EA4F1B381A4E002C134A /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		FAD3EA501B381A55002C134A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		FAD3EA511B381A5F002C134A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FAD3EA521B381A67002C134A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD3EA0F1B381956002C134A /* PhotoCallender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD3EA3B1B381956002C134A /* Build configuration list for PBXNativeTarget "PhotoCallender" */;
+			buildPhases = (
+				FAD3EA0C1B381956002C134A /* Sources */,
+				FAD3EA0D1B381956002C134A /* Frameworks */,
+				FAD3EA0E1B381956002C134A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoCallender;
+			productName = PhotoCallender;
+			productReference = FAD3EA101B381956002C134A /* PhotoCallender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD3EA261B381956002C134A /* PhotoCallenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD3EA3E1B381956002C134A /* Build configuration list for PBXNativeTarget "PhotoCallenderTests" */;
+			buildPhases = (
+				FAD3EA231B381956002C134A /* Sources */,
+				FAD3EA241B381956002C134A /* Frameworks */,
+				FAD3EA251B381956002C134A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD3EA291B381956002C134A /* PBXTargetDependency */,
+			);
+			name = PhotoCallenderTests;
+			productName = PhotoCallenderTests;
+			productReference = FAD3EA271B381956002C134A /* PhotoCallenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD3EA311B381956002C134A /* PhotoCallenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD3EA411B381956002C134A /* Build configuration list for PBXNativeTarget "PhotoCallenderUITests" */;
+			buildPhases = (
+				FAD3EA2E1B381956002C134A /* Sources */,
+				FAD3EA2F1B381956002C134A /* Frameworks */,
+				FAD3EA301B381956002C134A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD3EA341B381956002C134A /* PBXTargetDependency */,
+			);
+			name = PhotoCallenderUITests;
+			productName = PhotoCallenderUITests;
+			productReference = FAD3EA321B381956002C134A /* PhotoCallenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD3EA081B381956002C134A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = YoshimasaSakuragi;
+				TargetAttributes = {
+					FAD3EA0F1B381956002C134A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FAD3EA261B381956002C134A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FAD3EA0F1B381956002C134A;
+					};
+					FAD3EA311B381956002C134A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FAD3EA0F1B381956002C134A;
+					};
+				};
+			};
+			buildConfigurationList = FAD3EA0B1B381956002C134A /* Build configuration list for PBXProject "PhotoCallender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD3EA071B381956002C134A;
+			productRefGroup = FAD3EA111B381956002C134A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD3EA0F1B381956002C134A /* PhotoCallender */,
+				FAD3EA261B381956002C134A /* PhotoCallenderTests */,
+				FAD3EA311B381956002C134A /* PhotoCallenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD3EA0E1B381956002C134A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3EA211B381956002C134A /* LaunchScreen.storyboard in Resources */,
+				FAD3EA1E1B381956002C134A /* Assets.xcassets in Resources */,
+				FAD3EA191B381956002C134A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3EA251B381956002C134A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3EA301B381956002C134A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD3EA0C1B381956002C134A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3EA161B381956002C134A /* ViewController.swift in Sources */,
+				FAD3EA141B381956002C134A /* AppDelegate.swift in Sources */,
+				FAD3EA1C1B381956002C134A /* PhotoCallender.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3EA231B381956002C134A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3EA2C1B381956002C134A /* PhotoCallenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD3EA2E1B381956002C134A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD3EA371B381956002C134A /* PhotoCallenderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD3EA291B381956002C134A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD3EA0F1B381956002C134A /* PhotoCallender */;
+			targetProxy = FAD3EA281B381956002C134A /* PBXContainerItemProxy */;
+		};
+		FAD3EA341B381956002C134A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD3EA0F1B381956002C134A /* PhotoCallender */;
+			targetProxy = FAD3EA331B381956002C134A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD3EA171B381956002C134A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD3EA181B381956002C134A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD3EA1F1B381956002C134A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD3EA201B381956002C134A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD3EA391B381956002C134A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD3EA3A1B381956002C134A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD3EA3C1B381956002C134A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoCallender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyoto.PhotoCallender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAD3EA3D1B381956002C134A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoCallender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyoto.PhotoCallender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAD3EA3F1B381956002C134A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoCallenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyoto.PhotoCallenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoCallender.app/PhotoCallender";
+			};
+			name = Debug;
+		};
+		FAD3EA401B381956002C134A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoCallenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyoto.PhotoCallenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoCallender.app/PhotoCallender";
+			};
+			name = Release;
+		};
+		FAD3EA421B381956002C134A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoCallenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyoto.PhotoCallenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoCallender;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FAD3EA431B381956002C134A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoCallenderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kyoto.PhotoCallenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoCallender;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD3EA0B1B381956002C134A /* Build configuration list for PBXProject "PhotoCallender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD3EA391B381956002C134A /* Debug */,
+				FAD3EA3A1B381956002C134A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD3EA3B1B381956002C134A /* Build configuration list for PBXNativeTarget "PhotoCallender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD3EA3C1B381956002C134A /* Debug */,
+				FAD3EA3D1B381956002C134A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD3EA3E1B381956002C134A /* Build configuration list for PBXNativeTarget "PhotoCallenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD3EA3F1B381956002C134A /* Debug */,
+				FAD3EA401B381956002C134A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD3EA411B381956002C134A /* Build configuration list for PBXNativeTarget "PhotoCallenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD3EA421B381956002C134A /* Debug */,
+				FAD3EA431B381956002C134A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAD3EA1A1B381956002C134A /* PhotoCallender.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAD3EA1B1B381956002C134A /* PhotoCallender.xcdatamodel */,
+			);
+			currentVersion = FAD3EA1B1B381956002C134A /* PhotoCallender.xcdatamodel */;
+			path = PhotoCallender.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAD3EA081B381956002C134A /* Project object */;
+}
